@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { IfRenderComponent } from './if-render.component';
+import { ChangeNumberComponent } from './change-number.component';
 
-describe('IfRenderComponent', () => {
-  let component: IfRenderComponent;
-  let fixture: ComponentFixture<IfRenderComponent>;
+describe('ChangeNumberComponent', () => {
+  let component: ChangeNumberComponent;
+  let fixture: ComponentFixture<ChangeNumberComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ IfRenderComponent ]
+      declarations: [ ChangeNumberComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(IfRenderComponent);
+    fixture = TestBed.createComponent(ChangeNumberComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

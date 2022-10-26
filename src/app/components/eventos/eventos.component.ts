@@ -3,18 +3,16 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-eventos',
   templateUrl: './eventos.component.html',
-  styleUrls: ['./eventos.component.css']
+  styleUrls: ['./eventos.component.css'],
 })
 export class EventosComponent implements OnInit {
   show: boolean = false;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
+
+  showMessage(): void {
+    this.show = true;
   }
-
-  showMessage(): void{
-    this.show= !this.show; //toggle
-  }
-
 }

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { IfRenderComponent } from './if-render.component';
+import { TwoWayBindingComponent } from './two-way-binding.component';
 
-describe('IfRenderComponent', () => {
-  let component: IfRenderComponent;
-  let fixture: ComponentFixture<IfRenderComponent>;
+describe('TwoWayBindingComponent', () => {
+  let component: TwoWayBindingComponent;
+  let fixture: ComponentFixture<TwoWayBindingComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ IfRenderComponent ]
+      declarations: [ TwoWayBindingComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(IfRenderComponent);
+    fixture = TestBed.createComponent(TwoWayBindingComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

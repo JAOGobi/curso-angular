@@ -3,14 +3,13 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-if-render',
   templateUrl: './if-render.component.html',
-  styleUrls: ['./if-render.component.css']
+  styleUrls: ['./if-render.component.css'],
 })
 export class IfRenderComponent implements OnInit {
-  canShow: boolean= true;
-  name = 'Matheus';
-  constructor() { }
+  canShow: boolean = true;
+  name = 'João';
 
-  ngOnInit(): void {
-  }
+  constructor() {}
 
+  ngOnInit(): void {}
 }

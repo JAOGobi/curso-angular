@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { IfRenderComponent } from './if-render.component';
+import { EmitterComponent } from './emitter.component';
 
-describe('IfRenderComponent', () => {
-  let component: IfRenderComponent;
-  let fixture: ComponentFixture<IfRenderComponent>;
+describe('EmitterComponent', () => {
+  let component: EmitterComponent;
+  let fixture: ComponentFixture<EmitterComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ IfRenderComponent ]
+      declarations: [ EmitterComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(IfRenderComponent);
+    fixture = TestBed.createComponent(EmitterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

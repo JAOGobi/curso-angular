@@ -11,7 +11,9 @@ describe('DirectivesComponent', () => {
       declarations: [ DirectivesComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(DirectivesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

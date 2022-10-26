@@ -1,18 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Helvetica;
-}
-a{
-    color:orange;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
 }
 
-body{
-    padding-bottom: 500px;
+/* ajustes para aulas */
+body {
+  padding-bottom: 500px;
 }
 
-.class{
-    border-bottom: 1px solid red;
-    padding: 2em;
-    margin-bottom: 1em;
+.class {
+  border-bottom: 1px solid red;
+  padding: 2em;
+  margin-bottom: 1em;
 }
